@@ -7,7 +7,7 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform : translateX(-50%) translatey(-50%);
+	transform : translateX(-50%) translateY(-50%);
 
 }
 
@@ -15,28 +15,44 @@ li{
 	display: inline-block;
 
 }
-li a{
+li a {
 	text-decoration: none;
 	display: inline-block;
 	color: #fff;
-	font-family: Source Sans Pro;
+	font-family: Courier New;
 	font-weight: lighter;
 	font-size: 28px;
 	padding: 0 20px;
 
 }
 
-.cool-link :: after {
+.cool-link::after {
 	content: '';
 	display: block;
 	width: 0;
 	height: 2px;
 	background: #fff;
-	transition: width .3s;
+	transition: width .3s
 
 }
 
-.cool-link::hover::after{
+.cool-link:hover::after{
 	width: 100%;
-	transition: width .3s;
+	transition: width .3s
+}
+h1 {
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	font-family: Courier;
+	font-weight: lighter;
+	font-size: 40px;
+	padding: 0 20px;
+}
+.profile {
+	position:absolute;
+	top:50%;
+	left:50%;
+	padding:0px;
+	transform: translate(-50%,-200%);
 }
